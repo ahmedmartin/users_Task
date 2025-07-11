@@ -16,7 +16,10 @@ class UsersBloc extends Bloc<UsersEvent, UsersState> {
       : super(UsersInitial()) {
     on<UsersEvent>((event, emit) async {
       if (event is GetAllUsersEvent) {
-        emit(LoadingUsersState());
+        
+        if(event.users == null) {
+          emit(LoadingUsersState());
+        }
 
         final failureOrPosts =
             await getAllUsersUseCase(page: event.page);

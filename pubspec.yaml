@@ -29,8 +29,7 @@ dependencies:
   internet_connection_checker: ^1.0.0+1
   http: ^0.13.6
   dio: any
-  # Local cache
-  shared_preferences: ^2.1.1
+  paginated_list: ^1.2.3
 
 dev_dependencies:
   flutter_test:

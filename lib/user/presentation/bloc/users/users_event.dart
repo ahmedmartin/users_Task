@@ -15,10 +15,10 @@ class GetAllUsersEvent extends UsersEvent {
 
   int get  page {
     if(users != null){
-       if(users!.page == users!.totalPages){
-        return 0;
-       }else{
+       if(users!.page != users!.totalPages){
         return (users!.page!)+1;
+       }else{
+        return 0;
        }
     }else {
       return 1;

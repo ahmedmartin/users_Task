@@ -17,6 +17,9 @@ class LoadedUsersState extends UsersState {
 
   const LoadedUsersState({required this.users});
 
+  @override
+  List<Object> get props => [users.page!,users.totalPages!];
+
 }
 
 class ErrorUsersState extends UsersState {
