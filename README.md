@@ -1,4 +1,4 @@
-# Flutter clean architecture - Posts app
+# Flutter clean architecture - users app
 
 ## #1 Intro
 
@@ -8,7 +8,7 @@ this project use flutter version 3.24.3
 <br/>
 <br/>
 
-* [APK Link](https://drive.google.com/file/d/1MGBGn0LflXZIGiEvpOwP2XFF0jJpWUIu/view?usp=sharing)
+* [APK Link](https://drive.google.com/file/d/1KN2IooW2WJj5gS-h_8n6qeKrp1F_v8JI/view?usp=sharing)
 
 
 
